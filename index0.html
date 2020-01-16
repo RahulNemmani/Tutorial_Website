@@ -1,0 +1,259 @@
+<!doctype>
+<!doctype>
+<html>
+<head>
+    <link rel="stylesheet" href="animate.css">
+	<script src="jquery-3.3.1.min.js"></script>
+	<script src="typed.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<style type="text/css">
+	
+	#centering{
+	position:absolute;
+	top: 100px;
+	left: 350px;
+	
+	
+	}
+	
+	#buttoncentering{
+	
+	position: absolute;
+	top: 150px;
+	left: 275px;
+	-webkit-animation-duration: 0.5s;
+	
+	}
+
+	
+	#button {
+    background-color: F8F8FF; 
+    border: none;
+    color: gray;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	top: 150px;
+	left: 275px;
+}
+a{
+background-color: #32292F;
+color: white;
+padding: 1em 6.5em;
+text-decoration: none;
+
+
+
+
+
+
+
+}
+
+a:hover{
+background-color: white;
+color: black;
+padding: 1em 6.5em;
+text-decoration: none;
+
+
+
+}
+
+.icon-bar {
+  position: fixed;
+  top: 90%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.icon-bar a {
+  display:block;
+  text-align: center;
+  padding: 1em 5em;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.instagram {
+   linear-gradient( #400080, transparent), 
+  
+  
+   
+ linear-gradient( 
+   200deg, #d047d1, #ff0000,    #ffff00);
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+
+
+	</style>
+
+</head>
+
+
+
+
+<body>
+<div class="icon-bar">
+  <a href="https://www.facebook.com/rakesh.nemmani" class="facebook"><i class="fa fa-facebook"></i></a> 
+  <a href="https://www.instagram.com/therake.nomoney/" class="instagram"><i class="fa fa-instagram"></i></a> 
+  <a href="https://plus.google.com/111318223925289658665" class="google"><i class="fa fa-google"></i></a> 
+  <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+  
+</div>
+
+<div id="centering"><h1 id="centering"class="animated fadeInUp"><span class="text">Hi There! Welcome to my Website!</span></h1></div>
+<div id="typedstrings">
+
+</div>
+<span id="typed"></span>
+
+
+
+
+<a href="index.html" id="button1">About Me!
+<a href="index2.html"id="button2">What I Teach
+<a href="index3.html" id="button3">My Contact Information
+<a href="index4.html" id="button4">My Goal</a>
+
+<div id="bottompage"></div>
+
+
+
+
+
+
+
+</div>
+
+
+
+<script>
+$("document").ready(function(){
+
+var typed= new Typed(".text",{
+strings:["","Hi There! Welcome To My Website   ",
+"I love to sing",
+"...yeah I get it I'm not good",
+"I'm an avid KPOP listener especially BTS and EXO",
+"I am a Math Tutor teaching all the way up to Calculus",
+"Feel free to check me out on Social Media!"
+
+
+
+],
+smartBackspace: true,
+typeSpeed: 80,
+backSpeed: 80,
+loop: true,
+
+});
+
+
+
+
+});
+
+$("#button1").hover(function(){
+
+$(".text").hide();
+
+}).mouseleave(function(){
+$(".text").show();
+
+
+});
+$("#button2").hover(function(){
+
+$(".text").hide();
+
+}).mouseleave(function(){
+$(".text").show();
+
+
+});
+$("#button3").hover(function(){
+
+$(".text").hide();
+
+}).mouseleave(function(){
+$(".text").show();
+
+
+});
+
+$("#button4").hover(function(){
+
+$(".text").hide();
+
+
+}).mouseleave(function(){
+$(".text").show();
+
+
+
+
+}).mouseleave(function(){
+
+
+
+});
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
